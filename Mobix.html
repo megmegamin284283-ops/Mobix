@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobix Store</title>
+    <style>
+        body {
+            margin: 20px;
+            background-image: url(../Mobix/imgs/wallpaperflare.com_wallpaper\ \(14\).jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: cursive;
+            background-size: cover;
+            color: floralwhite;
+            height: 150vh;
+        }
+
+        hr {
+            border: none;
+            height: 6px;
+            background: linear-gradient(to right, black, rgb(98, 98, 172), grey);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        nav {
+            width: fit-content;
+            height: 40px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.796);
+            border-radius: 200px;
+            backdrop-filter: blur(10px);
+            margin: auto;
+            align-content: center;
+            margin-bottom: 20px;
+            transition-duration: 1s;
+            transition-property: all;
+        }
+
+        nav:hover {
+            height: 50px;
+            width: 90%;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 5px;
+            color: wheat;
+            font-size: larger;
+            transition: all 1s;
+        }
+
+        nav a:hover {
+            background-color: rgb(187, 162, 0);
+            border-radius: 20px;
+            width: 30px;
+            padding: 7px;
+            color: black;
+            font-size: larger;
+        }
+
+        ::selection {
+            background-color: black;
+            color: yellow;
+        }
+
+        button {
+            border: none;
+            background-color: rgb(57, 57, 57);
+            border-radius: 200px;
+            margin: 10px;
+            width: 100px;
+            height: 40px;
+            color: wheat;
+            transition-duration: 1s;
+            transition-property: all;
+
+
+        }
+
+        button:hover {
+            background-color: rgba(224, 179, 0, 0.888);
+            color: black;
+            width: 150px;
+            height: 50px;
+            font-size: large;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.854);
+            backdrop-filter: blur(10px);
+            width: 250px;
+            height: fit-content;
+            border-radius: 20px;
+            position: relative;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            transition-duration: 1s;
+            transition-property: all;
+            box-shadow: 0 0 20px 6px rgb(209, 209, 209);
+
+        }
+
+        .box:hover {
+            background-color: rgba(171, 171, 171, 0.844);
+            width: 320px;
+            color: black !important;
+            font-size: x-large;
+
+        }
+
+        * {
+            box-sizing: border-box;
+            color: floralwhite;
+            font-family: cursive;
+            font-weight: bold;
+            transition: all 1s;
+        }
+
+        .parent {
+            margin: 5px;
+        }
+
+        img {
+            border-radius: 10px;
+            width: 100px;
+        }
+
+        .sm {
+            width: 180px !important;
+        }
+
+        .log:visited {
+            color: rgb(81, 81, 81);
+        }
+
+        .im {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .aa {
+            text-decoration: none;
+            color: wheat;
+            margin: 10px;
+            font-size: large;
+        }
+
+        .aa:hover {
+            color: blue;
+        }
+
+        input[type="search"] {
+            background-color: rgba(0, 0, 0, 0.787);
+            border-radius: 7px;
+            border: none;
+            width: 80%;
+            height: 40px;
+            color: rgb(0, 0, 0) !important;
+            transition: all 1s;
+            padding: 15px;
+
+        }
+
+        input[type="search"]:hover,
+        input[type="search"]:focus {
+            background-color: rgba(44, 44, 44, 0.71);
+            outline: none;
+            color: black;
+            font-size: x-large;
+            width: 88%;
+            height: 50px;
+
+        }
+
+        .b {
+            position: relative;
+            left: -119px;
+            background-color: transparent;
+
+        }
+
+        .b:hover {
+            background-color: transparent;
+        }
+
+        .s {
+            position: relative;
+        }
+
+        .T {
+            text-align: center;
+            margin: 30px;
+            font-size: x-large;
+            font-weight: bold;
+            position: relative;
+            bottom: 0;
+        }
+
+        .aaa:hover {
+            color: darkblue;
+        }
+
+        .aa1 {
+            text-decoration: none;
+            margin: 10px;
+            font-size: large;
+            color: blue;
+        }
+
+        .aa1:hover {
+            color: red;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        figcaption {
+            transition: all 1s;
+            cursor: pointer;
+        }
+
+        figcaption:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>Mobix 📱</h1>
+        <nav>
+            <a target="_blank" href="mailto:megmegamin284283@gmail.com">Contact Us 🫤 </a>
+            <a target="_blank" href="../Mobix/rate.html">Rate us 😊 </a>
+            <a target="_blank" href="../Mobix/buy2.html">Buy Now 💸 </a>
+            <a href="###">Profile 📂 </a>
+            <a href="###">Home 🏠 </a>
+            <a href="../Mobix/hacker.html">Manager 👨‍💼 </a>
+            <a href="../Mobix/hacker.html">News 📰 </a>
+            <a href="../Mobix/hacker.html">About US 😊</a>
+            <a target="_blank" class="log" href="../Mobix/login.html">Login Now 🔓</a>
+        </nav>
+    </header>
+    <div class="parent">
+        <div class="box">
+            <figure>
+                <img class="sm" src="../Mobix/imgs/—Pngtree—samsung galaxy note 20 mockup_5495813.png" alt="" width=""
+                    height="150px">
+                <figcaption>Samsung S25 ULTRA</figcaption>
+            </figure>
+            <form action="../Mobix/buy2.html" target="_blank">
+                <button type="submit">Buy Now 💸</button>
+            </form>
+        </div>
+        <div class="box">
+            <figure>
+                <img src="../Mobix/imgs/vivo.webp" alt="" width="150px" height="150px">
+                <figcaption>Vivo y500 PRO</figcaption>
+            </figure>
+            <form action="../Mobix/buy2.html" target="_blank">
+                <button type="submit">Buy Now 💸</button>
+            </form>
+        </div>
+        <div class="box">
+            <figure>
+                <img src="../Mobix/imgs/redmi.webp" alt="" width="150px" height="150pc">
+                <figcaption>Redmi note 14</figcaption>
+            </figure>
+            <form action="../Mobix/buy2.html" target="_blank">
+                <button type="submit">Buy Now 💸</button>
+            </form>
+        </div>
+        <!-- <div class="box">
+            <figure>
+                <img src="../Mobix/imgs/one plus.webp" alt="" width="150px" height="150pc">
+                <figcaption>ONE plus</figcaption>
+            </figure>
+            <form action="../Mobix/buy2.html" target="_blank">
+                <button type="submit">Buy Now 💸</button>
+            </form>
+        </div> -->
+        <div class="box">
+            <figure>
+                <img src="../Mobix/imgs/—Pngtree—iphone 16 plus 3 camera_20611971.png" alt="" width="150px"
+                    height="150pc">
+                <figcaption>Iphonne 17 PRO max</figcaption>
+            </figure>
+            <form action="../Mobix/buy2.html" target="_blank">
+                <button type="submit">Buy Now 💸</button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <h2>Search About Any review 🫤</h2>
+        <form class="s" action="https://www.youtube.com/results" target="_blank">
+            <div class="search-container">
+                <input type="search" name="search_query" placeholder="search here " id="">
+                <!-- <button class="b" type="submit">🔍</button> -->
+            </div>
+
+        </form>
+    </div>
+    <hr>
+
+    <footer>
+
+        <p>Other 😵‍💫</p>
+        <ul>
+            <li>
+                <a target="_blank" class="aa" href="../Mobix/2026.html"> 👉 2026 Phones & Laptops 📱</a>
+            </li>
+            <li><a target="_blank" class="aa" href="../Mobix/vid.html"> 👉 Review For 2026 phones 📱</a></li>
+            <li><a target="_blank" class="aa" href="../Mobix/vid2.html"> 👉 Review For 2026 Laptops 📱</a></li>
+            <li>
+                Contact us via 👇
+                <ul>
+                    <li><a target="_blank" class="aa" href="https://wa.me/201025919219">Whatsapp <img class="im"
+                                src="../Mobix/imgs/whatsapp.png" alt=""></a></li>
+                    <li><a target="_blank" class="aa" href="https://www.facebook.com/me/">Facebook <img class="im"
+                                src="../Mobix/imgs/communication.png" alt="">
+                        </a></li>
+                    <li><a class="aa" href="">Tiktok <img class="im" src="../Mobix/imgs/tik-tok.png" alt=""></a></li>
+                    <li><a class="aa" href="">Instagram <img class="im" src="../Mobix/imgs/instagram.png" alt=""></a>
+                    </li>
+                    <li><a class="aa" href="">Twitter <img src="../Mobix/imgs/twitter.png" alt="" class="im"></a></li>
+                </ul>
+            <li>Phone-Num👉<a class="aaa" href="###">01025919219</a></li>
+            <li>Manager👉Eng.Amgad Amin </li>
+            <li><a class="aa1" href="../Mobix/love.html">Dont Click here 🤬</a></li>
+        </ul>
+
+        <p class="T">Thanks for choosing us 🥰</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virafication code</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url(../Tests/wallpaperflare.com_wallpaper\ \(14\).jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        * {
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* dark gray */
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: black;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            transition: all 1s;
+        }
+
+        input[type="text"]:hover,
+        input[type="email"]:hover,
+        input[type="password"]:hover {
+            background-color: #333;
+            outline: none;
+            width: 85%;
+        }
+
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: rgb(65, 65, 65);
+            background-color: #333;
+            outline: none;
+        }
+
+        button[type="submit"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #333;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 1s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: rgb(255, 225, 0);
+            width: 85%;
+            color: black;
+        }
+
+        .password {
+            text-decoration: none;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Enter the Code 😵‍💫</h1>
+
+        <form action="../Mobix/Mobix.html" target="_blank" method="post" novalidate>
+            <input type="text" placeholder="Code" maxlength="6">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

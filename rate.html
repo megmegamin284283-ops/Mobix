@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rate</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url(../Tests/wallpaperflare.com_wallpaper\ \(14\).jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* dark gray */
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+
+
+
+
+
+        button[type="submit"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #333;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: blue;
+        }
+
+
+        textarea {
+            background-color: #333;
+            color: wheat;
+            margin-bottom: 20px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Give us a comment 😊</h1>
+
+        <form action="../Mobix/thank.html" target="_blank" method="post">
+            <textarea name="comment" cols="30" rows="2"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
